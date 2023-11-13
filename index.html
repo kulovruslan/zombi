@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@100;300;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/style.min.css" />
   </head>
   <body>
     <header>
@@ -38,16 +39,326 @@
     </header>
     <main>
       <section class="hero">
-        <div class="hero__wrapper">
-          <img class="hero__logo" src="./img/IMAGE.svg" alt="logo" />
-          <h1 class="hero__title">We're here to help you find a new home.</h1>
-        </div>
-
-        <div class="hero__circle">
-          <a href="">
-            <img width="20px" src="./img/Arrow.svg" alt="arrow" />
+        <div class="hero__bg">
+          <div class="hero__wrapper">
+            <img class="hero__logo" src="./img/logo_hero.svg" alt="logo" />
+            <h1 class="hero__title">We're here to help you find a new home.</h1>
+          </div>
+          <a class="hero__circle" href="#">
+            <img width="20px" src="./img/arrow.png" alt="arrow" />
           </a>
         </div>
+      </section>
+
+      <section class="listings">
+        <div class="container">
+          <h2 class="listings__title">Our requirements</h2>
+          <h3 class="listings__subtitle">How we choose our listings.</h3>
+          <p class="listings__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            scelerisque aliquam odio et faucibus.
+          </p>
+          <div class="listings__wrapper">
+            <div class="listings__img">
+              <img src="./img/IMAGE_1.jpg" alt="" />
+            </div>
+            <ul class="listings__list">
+              <li class="listings__item">
+                <div class="listings__inner">
+                  <img
+                    src="./img/LISTINGS_icon_1.png"
+                    alt=""
+                    class="listings__icon"
+                  />
+                </div>
+                <h2 class="listings__title2">Stellar locations</h2>
+                <p class="listings__titla">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </li>
+              <li class="listings__item">
+                <div class="listings__inner">
+                  <img
+                    src="./img/LISTINGS_icon_2.png"
+                    alt=""
+                    class="listings__icon"
+                  />
+                </div>
+
+                <h2 class="listings__title2">High quality builds</h2>
+                <p class="listings__titla">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </li>
+              <li class="listings__item">
+                <div class="listings__inner">
+                  <img
+                    src="./img/LISTINGS_icon_3.png"
+                    alt=""
+                    class="listings__icon"
+                  />
+                </div>
+
+                <h2 class="listings__title2">Stellar locations</h2>
+                <p class="listings__titla">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <img src="./img/IMAGE_2.jpg" alt="особый" class="newsroom__img" />
+      </section>
+      <section class="newroom">
+        <div class="container">
+          <div class="newsroom__wrapper">
+            <h2 class="title">Current listings</h2>
+            <h3 class="subtitle">What we have in store for you.</h3>
+            <p class="text">
+              Morbi neque ex, condimentum dapibus congue et, vulputate ut
+              ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et
+              nisi ultrices, ut faucibus orci tincidunt.
+            </p>
+          </div>
+          <ul class="newsroom__list">
+            <li class="newsroom__item">
+              <img src="./img/v-1.jpg" alt="" class="newsroom__icon" />
+              <h3 class="newsroom__title">House</h3>
+              <p class="newsroom__subtitle">California St.</p>
+              <ul class="newsroom__list-icons">
+                <li class="newsroom__item-icons">
+                  <img src="./img/1-c.png" alt="icon-beds" />
+                  <span class="newsroom__item-icons-text">16 beds</span>
+                </li>
+                <li class="newsroom__item-icons">
+                  <img src="./img/2-c.png" alt="bathrooms" />
+                  <span class="newsroom__item-icons-text">2 bathrooms</span>
+                </li>
+                <li class="newsroom__item-icons">
+                  <img src="./img/3-с.png" alt="dooricon" />
+                  <span class="newsroom__item-icons-text">11 rooms</span>
+                </li>
+              </ul>
+            </li>
+            <li class="newsroom__item">
+              <img src="./img/v-2.png" alt="" class="newsroom__icon" />
+              <h3 class="newsroom__title">Villa</h3>
+              <p class="newsroom__subtitle">Welford Gardens</p>
+              <ul class="newsroom__list-icons">
+                <li class="newsroom__item-icons">
+                  <img src="./img/1-c.png" alt="icon-bathroom" />
+                  <span class="newsroom__item-icons-text">12 beds</span>
+                </li>
+                <li class="newsroom__item-icons">
+                  <img src="./img/2-c.png" alt="bathrooms" />
+                  <span class="newsroom__item-icons-text">3 bathrooms</span>
+                </li>
+                <li class="newsroom__item-icons">
+                  <img src="./img/3-с.png" alt="dooricon" />
+                  <span class="newsroom__item-icons-text">16 rooms</span>
+                </li>
+              </ul>
+            </li>
+            <li class="newsroom__item">
+              <img src="./img/v-3.png" alt="" class="newsroom__icon" />
+              <h3 class="newsroom__title">House</h3>
+              <p class="newsroom__subtitle">The Grove</p>
+              <ul class="newsroom__list-icons">
+                <li class="newsroom__item-icons">
+                  <img src="./img/1-c.png" alt="icon-bathroom" />
+                  <span class="newsroom__item-icons-text">12 beds</span>
+                </li>
+                <li class="newsroom__item-icons">
+                  <img src="./img/2-c.png" alt="bathrooms" />
+                  <span class="newsroom__item-icons-text">2 bathrooms</span>
+                </li>
+                <li class="newsroom__item-icons">
+                  <img src="./img/3-с.png" alt="dooricon" />
+                  <span class="newsroom__item-icons-text">14 rooms</span>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="newsroom__list">
+            <li class="newsroom__item">
+              <img src="./img/v-4.png" alt="" class="newsroom__icon" />
+              <h3 class="newsroom__title">Apartment</h3>
+              <p class="newsroom__subtitle">Wallace St.</p>
+              <ul class="newsroom__list-icons">
+                <li class="newsroom__item-icons">
+                  <img src="./img/1-c.png" alt="icon-beds" />
+                  <span class="newsroom__item-icons-text">16 beds</span>
+                </li>
+                <li class="newsroom__item-icons">
+                  <img src="./img/2-c.png" alt="bathrooms" />
+                  <span class="newsroom__item-icons-text">2 bathrooms</span>
+                </li>
+                <li class="newsroom__item-icons">
+                  <img src="./img/3-с.png" alt="dooricon" />
+                  <span class="newsroom__item-icons-text">11 rooms</span>
+                </li>
+              </ul>
+            </li>
+            <li class="newsroom__item">
+              <img src="./img/v-5.png" alt="" class="newsroom__icon" />
+              <h3 class="newsroom__title">Apartment</h3>
+              <p class="newsroom__subtitle">Dwight Way</p>
+              <ul class="newsroom__list-icons">
+                <li class="newsroom__item-icons">
+                  <img src="./img/1-c.png" alt="icon-bathroom" />
+                  <span class="newsroom__item-icons-text">12 beds</span>
+                </li>
+                <li class="newsroom__item-icons">
+                  <img src="./img/2-c.png" alt="bathrooms" />
+                  <span class="newsroom__item-icons-text">3 bathrooms</span>
+                </li>
+                <li class="newsroom__item-icons">
+                  <img src="./img/3-с.png" alt="dooricon" />
+                  <span class="newsroom__item-icons-text">16 rooms</span>
+                </li>
+              </ul>
+            </li>
+            <li class="newsroom__item">
+              <img src="./img/v-6.png" alt="" class="newsroom__icon" />
+              <h3 class="newsroom__title">House</h3>
+              <p class="newsroom__subtitle">North Avenue</p>
+              <ul class="newsroom__list-icons">
+                <li class="newsroom__item-icons">
+                  <img src="./img/1-c.png" alt="icon-bathroom" />
+                  <span class="newsroom__item-icons-text">12 beds</span>
+                </li>
+                <li class="newsroom__item-icons">
+                  <img src="./img/2-c.png" alt="bathrooms" />
+                  <span class="newsroom__item-icons-text">2 bathrooms</span>
+                </li>
+                <li class="newsroom__item-icons">
+                  <img src="./img/3-с.png" alt="dooricon" />
+                  <span class="newsroom__item-icons-text">14 rooms</span>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <button class="newsroom__btm show-btn">
+            Show all listings
+            <img class="newsroom__arrom" src="./img/nom-1.png" alt="" />
+          </button>
+        </div>
+      </section>
+      <section class="team">
+        <div class="team__wrapper container">
+          <div class="team__inner">
+            <h3 class="team__text">Our people</h3>
+            <h2 class="team__title">
+              Meet our team of dedicated and talented agents.
+            </h2>
+            <h4 class="team__subtitle">
+              Morbi neque ex, condimentum dapibus congue et, vulputate ut
+              ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et
+              nisi ultrices, ut faucibus orci tincidunt.
+            </h4>
+            <button class="team__btn show-btn">
+              View our team <img src="./img/arrom_1.png" alt="" />
+            </button>
+          </div>
+
+          <ul class="team__list">
+            <li class="team__item">
+              <img src="./img/imag__1.jpg" alt="" />
+              <div>
+                <h2 class="team__text-1">Ella Hessel</h2>
+                <h3 class="team__text-2">Agent</h3>
+              </div>
+            </li>
+            <li class="team__item">
+              <img src="./img/imag__4.png" alt="" />
+              <div>
+                <h2 class="team__text-1">Ella Hessel</h2>
+                <h3 class="team__text-2">Agent</h3>
+              </div>
+            </li>
+            <li class="team__item">
+              <img src="./img/imag__2.png" alt="" />
+              <div>
+                <h2 class="team__text-1">Ella Hessel</h2>
+                <h3 class="team__text-2">Agent</h3>
+              </div>
+            </li>
+            <li class="team__item">
+              <img src="./img/imag__5.png" alt="" />
+              <div>
+                <h2 class="team__text-1">Ella Hessel</h2>
+                <h3 class="team__text-2">Agent</h3>
+              </div>
+            </li>
+            <li class="team__item">
+              <img src="./img/imag__3.jpg" alt="" />
+              <div>
+                <h2 class="team__text-1">Ella Hessel</h2>
+                <h3 class="team__text-2">Agent</h3>
+              </div>
+            </li>
+            <li class="team__item">
+              <img src="./img/imag__6.png" alt="" />
+              <div>
+                <h2 class="team__text-1">Ella Hessel</h2>
+                <h3 class="team__text-2">Agent</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="home">
+        <div class="container">
+          <h2 class="title">Newsroom</h2>
+          <h3 class="subtitle">Writing from Estate.</h3>
+
+          <ul class="home__list">
+            <li class="home__item">
+              <img src="./img/hom-1.png" alt="" />
+              <div class="home__inner">
+                <h2 class="home__titla">Press release</h2>
+                <h3 class="home__subtitla">
+                  Market watch: are condos still a good investment?
+                </h3>
+                <p class="home__text">August 12, 2021</p>
+              </div>
+            </li>
+            <li class="home__item">
+              <img src="./img/hom-2.png" alt="" />
+              <div class="home__inner">
+                <h2 class="home__titla">Announcement</h2>
+                <h3 class="home__subtitla">The history of great design</h3>
+                <p class="home__text">August 12, 2021</p>
+              </div>
+            </li>
+            <li class="home__item">
+              <img src="./img/hom-3.png" alt="" />
+
+              <div class="home__inner">
+                <h2 class="home__titla">Company news</h2>
+                <h3 class="home__subtitla">Designers who changed everything</h3>
+                <p class="home__text">August 12, 2021</p>
+              </div>
+            </li>
+          </ul>
+          <button class="home__btm show-btn">
+            Newsroom
+            <img class="home__arrom" src="./img/arrom_1.png" alt="" />
+          </button>
+        </div>
+      </section>
+
+      <section class="star">
+        <div class="container">
+          <h2 class="star__title title">Newsroom</h2>
+          <h3 class="star__subtitle subtitle">Writing from Estate.</h3>
+        </div>
+        \
+        <div class=""></div>
       </section>
     </main>
   </body>

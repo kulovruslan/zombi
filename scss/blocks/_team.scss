@@ -1,0 +1,70 @@
+.team {
+  &__text {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px; /* 140% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ff8a63;
+  }
+  &__title {
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+
+    font-weight: 500;
+    line-height: 43.2px; /* 120% */
+    color: #45525b;
+  }
+  &__subtitle {
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px; /* 127.059% */
+    color: #6f7278;
+  }
+  &__inner {
+    width: 500px;
+  }
+  &__btn {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+  }
+  &__item {
+    width: 300px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  &__text-1 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.4px; /* 140% */
+    color: #45525b;
+  }
+  &__text-2 {
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px; /* 140% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #6f7278;
+  }
+}
